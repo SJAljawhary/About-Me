@@ -1,13 +1,25 @@
 h1{text-align: center;
     font-size: 1cm;
     color: darkmagenta;
-    border: dimgray;
+    
 }
-
+/* 
 p{text-align: center;
    color: blueviolet;
-   font-size: 0.7cm;
+   font-size: 0.7cm; */
    
-}
+ /* }
+ ol li{
+     display:block;
+     border:dotted;
+     border-color: firebrick;
+    text-align: center;
+    font-size: 0.6cm;
+    color: darkslategray;
 
+} */
+
+ ul li{
+    text-align: center;
+ }
 
