@@ -18,8 +18,13 @@ p{text-align: center;
     color: darkslategray;
 
 } */
-
+/* 
  ul li{
-    text-align: center;
+    list-style: circle;
  }
+
+ol li {
+list-style-type: lower-latin;
+} */
+
 
