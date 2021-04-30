@@ -160,3 +160,5 @@ alert('the true answers are: ' + ' ,nike ' + ' ,adidas ' + ' ,puma ' + ' ,reebok
 
 
 alert('your final score is ' + score);
+
+alert('Thank you my friend for your visit, see you again ' + userName);
