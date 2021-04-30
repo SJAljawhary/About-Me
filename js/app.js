@@ -27,6 +27,8 @@ switch(studyField){
         prompt('expect which field in engineering I have studied "industrial" , "civil" , "mechanical ?')
 
     }
+     
+
 
        let age = prompt(' how old am I do you think ?')
           if(age == '26'){
@@ -95,6 +97,8 @@ switch(studyField){
             prompt('So what do you think now ?')
         }
 
+
+
         
         let years = prompt('guess how many years I have worked in this field ?');
 
@@ -118,6 +122,7 @@ switch(studyField){
             alert('the true answer is 3 years .')
         } 
     }
+
 
 
 
