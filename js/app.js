@@ -142,21 +142,26 @@ alert('the true answer is 3 years .');
 
 
 let sportBrand = ['nike', 'adidas', 'puma', 'reebok',];
-let ask7 = prompt('what is my favourite sport brand ?');
-for (let i = 0; i < 5; i++) {
-    if (ask7 === sportBrand[i]) {
-        alert('yes It\'s one of the list');
+let flag = false ;
+for (let attempt = 1; attempt <= 6; attempt++) {
+    let ask7 = prompt('what is my favourite sport brand ?');
 
-        score++;
-        break;
+    for(let i=0 ; i < sportBrand.length ; i++){
+        if(ask7 === sportBrand[i]){
+            alert('yes It\'s one of the list');
+            flag = true ;
+            break;
+    
+     }else{
+         alert('No It\'s not on of them')
+         let ask7 = prompt('what is my favourite sport brand ?');
+     }
+        }
+        if(flag = true){
+            alert('the true answers are: ' + ' ,nike ' + ' ,adidas ' + ' ,puma ' + ' ,reebok ');
+            break;
+        }
     }
-    else {
-        alert('sorry It\'s not one of the list');
-        ask7 = prompt('what is my favourite sport brand?');
-
-    }
-}
-alert('the true answers are: ' + ' ,nike ' + ' ,adidas ' + ' ,puma ' + ' ,reebok ');
 
 
 alert('your final score is ' + score);
