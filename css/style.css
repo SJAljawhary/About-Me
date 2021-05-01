@@ -1,30 +1,27 @@
-h1{text-align: center;
+h1{text-align:left;
+    margin-left: 1cm;
     font-size: 1cm;
     color: darkmagenta;
+    font-family: 'Original Surfer', cursive;;
     
 }
-/* 
-p{text-align: center;
-   color: blueviolet;
-   font-size: 0.7cm; */
-   
- /* }
- ol li{
-     display:block;
-     border:dotted;
-     border-color: firebrick;
-    text-align: center;
-    font-size: 0.6cm;
-    color: darkslategray;
 
-} */
-/* 
- ul li{
-    list-style: circle;
- }
 
-ol li {
-list-style-type: lower-latin;
-} */
+h3{
+    text-align: left;
+    color:palevioletred;
+    border: green;margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    font-size:0.8cm;
+    font-family: 'Original Surfer', cursive;;
+}
+
+img{
+    margin-right:20cm;
+    width: 600px;
+    
+}
+
 
 
