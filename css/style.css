@@ -1,8 +1,13 @@
-h1{text-align:left;
+h1{text-align:justify;
     margin-left: 1cm;
     font-size: 1cm;
     color: darkmagenta;
     font-family: 'Original Surfer', cursive;;
+    width:28cm;
+    height:3cm;
+    padding-top: 2cm;
+    padding-left: 1cm;
+    border-color: dodgerblue;
     
 }
 
