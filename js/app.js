@@ -1,7 +1,7 @@
 'use strict';
 
 let userName = prompt('what is your name ?');
-console.log(userName);
+
 alert('welcome ' + userName + '!');
 alert('let\'s know if you will know me !');
 
@@ -51,7 +51,7 @@ function howOld(){
     } else if (age !== '26') {
         alert('wrong! try again please');
         prompt('guess how old am I do you think?');
-        console.log(age);
+        
     }
     
 }
@@ -63,10 +63,10 @@ if (answer === 'yes' || answer === 'y') {
     alert('Great!');
     score++;
     prompt('what is my name ?');
-    console.log(answer);
+    
 } else if (answer === 'no' || answer === 'n') {
     alert('so let\'s know more information !');
-    console.log(answer);
+    
 }
 
 //function & Question #3 :
